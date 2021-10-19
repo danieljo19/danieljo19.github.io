@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Daniel Johan
+        2024250073
+    </h1>
+    <br>
+    <div class="nilai">
+    <input type="text" id="hasil" placeholder="Masukkan Hasil Anda" autocomplete="off">
+    <button id="cek" onclick="cek()" style="font-weight: bold;">Konversi</button>
+    <p id="demo" style="text-align: center;">Nilai Anda : </p>
+    </div>
+    <br>
+
+    <div class="calculator">
+    <p>Bil. 1 <input type="text" id="b1"></p><br/>
+    <p>Bil. 2 <input type="text" id="b2"></p>
+    <div style="text-align: center;" style="width: 25px;">
+    <button id="tambah" value="tambah" onclick="tambah()">+</button>
+    <button id="kurang" value="kurang" onclick="kurang()">-</button>
+    <button id="kali" value="kali" onclick="kali()">*</button>
+    <button id="bagi" value="bagi" onclick="bagi()">/</button>
+    </div>
+    <br>
+    <div class="hasil1" style="text-align: center;">Hasil</div>
+    <div id="cek1"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
